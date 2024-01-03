@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Object Model (BOM)</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css'
+        integrity='sha512-CQw8fBrTrIafAzH3rPnvche6JJfBur5Y//Ea1iBJW9IJNbdgfIFgH11jSmIy1offAIB+Z1s9bgNocphhgDJSrQ=='
+        crossorigin='anonymous' />
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <main class="container mt-3">
+        <article class="row">
+            <section class="col">
+                <h1>Browser Object Model (BOM)</h1>
+                <p>The
+                    <abbr title="Browser Object Model">(BOM)</abbr>
+                    is a collection of objects such as
+                    <code>Window</code>,
+                    <code>Navigator</code>,
+                    <code>Location</code>,
+                    <code>History</code>,
+                    and
+                    <code>Screen</code>
+                    objects that are available to JavaScript code, and that represent the browser
+                    environment.
+                </p>
+
+                <h2>Use of BOM Collection.</h2>
+
+                <h3>The JavaScript Window Object:</h3>
+                <button id="newTabButton">Open New Tab</button>
+                <button id="closeTabButton">Close Current Window</button>
+                <button id="coordinatesButton">Get Coordinates</button>
+                <p id="coordinates"></p>
+
+                <h3>The JavaScript Navigator Object:</h3>
+                <button id="navigatorButton">Get Browser Info</button>
+                <p id="navigatorContainer"></p>
+
+                <h3>The JavaScript Location Object:</h3>
+                <button id="urlButton">Get CurrentPage URL</button>
+                <p id="urlContainer"></p>
+                <button id="refreshButton">Refresh The Page</button>
+
+                <h3>The JavaScript History Object:</h3>
+                <button id="historyButton">Get Your Browser History</button>
+                <p id="historyContainer"></p>
+                <button id="backButton">Go Back</button>
+                <button id="forwardButton">Go Forward</button>
+                <button id="goButton">Go to Your Preferred Page</button>
+
+                <h3>The JavaScript Screen Object:</h3g>
+                <p id="screenContainer"></p>
+                <button id="screenButton">Get Screen Info</button>
+            </section>
+        </article>
+    </main>
+</body>
+
+</html>
