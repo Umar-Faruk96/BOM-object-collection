@@ -75,5 +75,5 @@ const screenContainer = document.getElementById("screenContainer");
 const screenButton = document.getElementById("screenButton");
 
 screenButton.addEventListener("click", () => {
-  screenContainer.innerHTML = `<pre style="margin: 0; padding: 1em;">Your Screen Height is <code>${screen.height}.</code>Screen Width is <code>${screen.width}.</code>Available Height is <code>${screen.availHeight}.</code>Available Width is <code>${screen.availWidth}.</code>Screen Color Depth is <code>${screen.colorDepth}.</code>Screen Pixel Depth is <code>${screen.pixelDepth}.</code></pre>`;
+  screenContainer.innerHTML = `<pre style="margin: 0; padding: 1em;">Your Screen Height is <code>Height = ${screen.height}.</code>Screen Width is <code>Width = ${screen.width}.</code>Available Height is <code>availHeight = ${screen.availHeight}.</code>Available Width is <code>availWidth = ${screen.availWidth}.</code>Screen Color Depth is <code>colorDepth = ${screen.colorDepth}.</code>Screen Pixel Depth is <code>pixelDepth = ${screen.pixelDepth}.</code></pre>`;
 });
